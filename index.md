@@ -23,10 +23,11 @@ Optionally, you can configure Google API token, to transcribe voice message and 
 
 ## Grant Access
 
-GitDiaryBot supports two ways of providing access:
+GitDiaryBot supports several ways for providing access:
 
-1. For diaries hosted on *GitHub* as a private repositories, add GitDiaryBot as a collaborator in *Settings -> Manage Access*.
-2. For other kinds of hosting platforms, add the following public key to the git:
+1. For diaries hosted on *GitHub* as private repositories, add GitDiaryBot as a collaborator in *Settings -> Manage Access*.
+2. For diaries hosted on *GitLab* as private repositories, invite GitDiaryBot in *Settings -> Members*.
+3. For other kinds of hosting platforms, add the following public SSH key:
 
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDLHxtY2HyjgdJs/RHQG3vGbDDrxys/P0KMvtEeXrgq3LL2S825XUcX2LFSwiWkqMkM22JBS7dGfuNmWy8rZP0RcH/RUK+tOYO7QelH1xS3cmProTF6pAXoSxJnRsvyS3TtF2LKSBiqY7geHo7GPkaNILKAsw5cgYDkKDRbEgndZRHrD1Bw0/Aixa9P8dWwSY06tyDRoCVfZXEnoX7k82dTtmwpbHf5QmU2DqDn5WqkBNPOtfBQEnMH3qZ3kgBYHWuMgWzbQVyO0Rc7vcS/2CfOaGWV16zLyealVOfmbJnEstn8iHETw2IFjaiupZIezSPYOnyycmEZEMinYYsLIRX2Yt/xUNEZ8oYqci8SRDx+F7TvaX/ff6PvCJdccj0c8eSP4p8u1SckVq6lXvISKgHzHilD1LZpjjPGHg9mrpUH2r0jsfwBQh9Kfy3bxK2DZ7Sk/slyG7u8hNVefF+2eia39sLxhFeJK48aAslL0gOlv5ViUCw0MtjAVzcFOkAXM1M= GitDiaryBot
