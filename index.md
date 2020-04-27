@@ -1,11 +1,11 @@
 ## Introduction
 
 Meet GitDiaryBot, a Telegram bot. It helps writing a plain text diary synchronized by Git.
+When you send a message to GitDiaryBot, it:
 
-1. You send a message to GitDiaryBot.
-2. GitDiaryBot pulls your Git repository.
-3. GitDiaryBot appends the message to the end of a diary file.
-4. GitDiaryBot commits and pushes new version back to your Git repository.
+1. Pulls your Git repository.
+2. Appends the message to the end of a diary file.
+3. Commits and pushes new version back to your Git repository.
 
 ## Who wants it?
 
