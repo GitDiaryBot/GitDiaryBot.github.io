@@ -19,7 +19,9 @@ Optionally, you can configure Google API token, to transcribe voice message and 
 2. If your Diary is hosted on GitHub in private repository, add GitDiaryBot as collaborator
    to the repository in Settings > Manage Access > Invite collaborators.
 3. Send a message to the bot following this template:
-   ```/start git@github.com:username/repository.git```
+   ```
+   /start git@github.com:username/repository.git
+   ```
 
 ## Grant Access
 
